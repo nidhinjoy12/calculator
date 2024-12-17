@@ -1,0 +1,52 @@
+<LinearLayout
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:background="#A379F4"
+        android:text="NUM1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/n1"
+        android:background="#D2C3E6"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#A379F4"
+        android:text="NUM2"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/n2"
+        android:background="#D2C3E6"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ccc"
+        android:background="#8A5BE4"
+        android:layout_margin="10dp"
+        android:text="MULTIPLICATION"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_margin="10dp"
+        android:background="#8A5BE4"
+        android:text="GO BACK"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>

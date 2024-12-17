@@ -1,0 +1,40 @@
+<LinearLayout
+    android:background="#070C2A"
+    android:gravity="center"
+    android:layout_margin="40dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/aaa"
+        android:background="#8A5BE4"
+        android:layout_margin="10dp"
+        android:text="ADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bbb"
+        android:background="#8A5BE4"
+        android:layout_margin="10dp"
+        android:text="SUBSTRACT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ccc"
+        android:background="#8A5BE4"
+        android:layout_margin="10dp"
+        android:text="MULTIPLICATION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ddd"
+        android:background="#8A5BE4"
+        android:layout_margin="10dp"
+        android:text="DIVISION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
